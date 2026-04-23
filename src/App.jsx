@@ -276,7 +276,7 @@ export default function EduHawkLandingPage() {
             Starts Here
           </h1>
           <p className="text-xl text-white/90 max-w-2xl mb-10">
-            India's trusted MBBS abroad consultancy from bhopal. NMC approved universities • Low fees • No donation • Complete guidance
+            India's trusted MBBS abroad consultancy. NMC approved universities • Low fees • No donation • Complete guidance
           </p>
           <div className="flex flex-wrap gap-4 mb-12">
             <button
