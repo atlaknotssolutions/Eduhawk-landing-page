@@ -476,10 +476,10 @@ export default function EduHawkLandingPage() {
       <footer className="bg-slate-950 text-slate-400 py-16 px-6">
         <div className="max-w-6xl mx-auto text-center">
           <div className="flex items-center justify-center gap-3 mb-6">
-            <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-cyan-500 to-violet-600 flex items-center justify-center text-white">
-              <Stethoscope size={28} strokeWidth={2.5} />
-            </div>
-            <span className="text-2xl font-bold text-white">Edu-Hawk</span>
+            <div className="flex items-center gap-3">
+          <img src={Eduhawk} alt="Eduhawk Logo" className="h-12 w-auto" />
+        </div>
+            {/* <span className="text-2xl font-bold text-white">Edu-Hawk</span> */}
           </div>
           <p className="text-sm">© 2026 Edu-Hawk. All Rights Reserved.</p>
           <p className="text-xs mt-6 text-slate-500">Best MBBS Abroad Consultant in bhopal, Madhya Pradesh</p>
