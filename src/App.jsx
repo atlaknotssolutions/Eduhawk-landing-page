@@ -567,14 +567,6 @@ const COUNTRIES = [
     uniImage: "https://upload.wikimedia.org/wikipedia/commons/f/f6/2.%E0%A6%B6%E0%A6%BE%E0%A6%AA%E0%A6%B2%E0%A6%BE_%E0%A6%9A%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%B0.jpg"
   },
   {
-    name: "China",
-    seats: "600+",
-    rank: "Most Popular",
-    color: "#22d3ee",
-    university: "China Medical University",
-    uniImage: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=85"
-  },
-  {
     name: "Nepal",
     seats: "200+",
     rank: "Affordable",
