@@ -353,13 +353,7 @@ export default function EduHawkLandingPage() {
                 <div className="text-sm text-slate-600 mb-5 line-clamp-2">
                   {country.university}
                 </div>
-                <div className="flex justify-between text-sm border-t pt-6">
-                
-                  <div className="text-right">
-                    <div className="text-slate-500">Seats</div>
-                    <div className="font-semibold text-lg text-cyan-600">{country.seats}</div>
-                  </div>
-                </div>
+              
               </div>
             </div>
           ))}
