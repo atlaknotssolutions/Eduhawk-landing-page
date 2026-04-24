@@ -39,7 +39,7 @@ const COUNTRIES = [
     color: "#06b6d4",
     university: "Sechenov University / Peoples' Friendship University",
     uniImage:
-      "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?w=800&q=85",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/A1a5NrBXj9i91Mlj/moscow-university-AMq8zkJ3pRuwa2XD.jpg",
   },
   {
     name: "Kazakhstan",
@@ -48,7 +48,7 @@ const COUNTRIES = [
     color: "#22d3ee",
     university: "Kazakh National Medical University",
     uniImage:
-      "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&q=85",
+      "https://www.jagvimal.com/assets/admin/images/universities/logo/small/Asfendiyarov%20Kazakh%20National%20Medical%20University%20banner.JPG-62733.JPG",
   },
   {
     name: "Georgia",
@@ -57,7 +57,7 @@ const COUNTRIES = [
     color: "#0ea5e9",
     university: "Tbilisi State Medical University",
     uniImage:
-      "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=800&q=85",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEhv3S_ZVqbAoA5OnTQqpiecgg_ofNulvypQ&s",
   },
   {
     name: "Bangladesh",
