@@ -15,10 +15,6 @@ import {
 import Eduhawk from "./assets/Eduhawk.png";
 import ReCAPTCHA from "react-google-recaptcha";
 
-
-
-
-
 const NAV_LINKS = [
   "Home",
   "Countries",
@@ -381,6 +377,32 @@ export default function EduHawkLandingPage() {
           {menuOpen ? "✕" : "☰"}
         </button>
       </nav>
+
+      {menuOpen && (
+        <div className="md:hidden fixed top-20 left-0 right-0 bg-white/95 shadow-xl border-t border-slate-200 z-40">
+          <div className="flex flex-col gap-4 px-5 py-5">
+            {NAV_LINKS.map((link) => (
+              <a
+                key={link}
+                href={`#${link.toLowerCase()}`}
+                onClick={() => setMenuOpen(false)}
+                className="block text-lg font-medium text-slate-700 hover:text-cyan-600 transition-colors"
+              >
+                {link}
+              </a>
+            ))}
+            <button
+              onClick={() => {
+                setMenuOpen(false);
+                openCounseling();
+              }}
+              className="w-full px-6 py-4 bg-gradient-to-r from-cyan-500 to-violet-600 text-white rounded-full font-semibold hover:scale-[1.02] transition-all"
+            >
+              Free Counseling
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* HERO SECTION */}
       <section
