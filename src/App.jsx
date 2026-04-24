@@ -340,6 +340,13 @@ export default function EduHawkLandingPage() {
           backdrop-filter: blur(16px);
           border: 1px solid rgba(6,182,212,0.15);
         }
+        .modal-scrollbar-hide {
+          scrollbar-width: none;
+          -ms-overflow-style: none;
+        }
+        .modal-scrollbar-hide::-webkit-scrollbar {
+          display: none;
+        }
         .hero-bg { transition: opacity 1.5s ease-in-out; }
         .country-card:hover { transform: translateY(-12px); box-shadow: 0 25px 50px rgba(0,0,0,0.1); }
         .benefit-card:hover { transform: translateY(-8px); }
@@ -735,7 +742,7 @@ export default function EduHawkLandingPage() {
       {/* COUNSELING MODAL */}
       {showModal && (
         <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-[100] p-4">
-          <div className="glass w-full max-w-lg rounded-3xl overflow-hidden shadow-2xl relative">
+          <div className="glass w-full max-w-lg max-h-[calc(105vh-3rem)] rounded-3xl overflow-y-auto shadow-2xl relative modal-scrollbar-hide">
             <div className="flex justify-between items-center border-b p-6">
               <h3 className="text-2xl font-bold text-slate-900">
                 Free MBBS Counseling
@@ -748,7 +755,7 @@ export default function EduHawkLandingPage() {
               </button>
             </div>
 
-            <form onSubmit={handleSubmit} className="p-8 space-y-6">
+            <form onSubmit={handleSubmit} className="p-6 space-y-2">
               <input
                 type="text"
                 name="name"
